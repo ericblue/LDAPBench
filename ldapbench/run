@@ -1,0 +1,3 @@
+#!/bin/sh
+
+./ldapbenchmark config/ldapbenchmark.conf $1

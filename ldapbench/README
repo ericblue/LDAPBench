@@ -1,0 +1,12 @@
+LDAPBench is a benchmark utility for measuring LDAP directory server performance. This project (written in C) is based on, and 
+offers most of the features of Mindcraft's DirectoryMark (http://www.mindcraft.com/directorymark/) product. The distinction is that 
+LDAPBench offers the ability to use multiple SDKs (Mozilla and OpenLDAP). This allows for more accurate benchmarking tailored to the 
+specific server's environment.
+
+Benchmarks have been performed for ldap, ldaps, and ldapi transports and have been tested against iPlanet and OpenLDAP 
+installations. Currently, only search operations are supported for benchmarking read throughput. One of the goals of this project 
+was to get assistance with adding tests for modify, add, delete, compare, and modrdn operations. The primary goal is to offer a 
+free, open source distribution used as a reliable and extensible alternative for LDAP benchmarking.
+
+NOTE: Most of this code was written in 1999-2000 and tested extensively with OpenLDAP and NDS/ODS (Netscape Directory Server).
+Work does need to be done to get it current with latest releases and LDAP protocol updates, however it should be minimal.

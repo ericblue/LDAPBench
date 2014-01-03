@@ -1,0 +1,14 @@
+CODE
+- Test with OpenLDAP
+- Add getopt and default to config file
+- Test with Netscape/Iplanet
+- Add $Id to all files
+- Remove include dir and put proper location in Makefile
+- Add new dprintf()
+- Verify license info and copyright notices are correct
+- Replace C++ style comments with C style
+- Tidy
+- Add make install
+- add make distclean
+
+
